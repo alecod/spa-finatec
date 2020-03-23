@@ -1,0 +1,24 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import 'variables';
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+    background-color: $orange;
+    border-color: $orange-dark;
+    &:hover{
+    background-color: $orange-dark;
+    }
+}
+
+.btn-outline-primary{
+    background-color: transparent;
+    border-color: $orange;
+    color: #fff;
+    &:hover{
+    background-color: $orange-dark;
+    }
+}
